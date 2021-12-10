@@ -1,0 +1,7 @@
+<div class="posts">
+    {{ range $_, $post := .posts }}
+    <h3 class="post">{{ $post.Title }}</h3>
+    <p>{{ $post.Body }}</p>
+    <hr />
+    {{ end }}
+</div>

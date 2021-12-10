@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{.title}}</title>
+    <meta name="description" content="{{.description}}">
+    <meta name="author" content="{{.author}}">
+
+    <!-- Turbolinks provides instant page navigation -->
+    <script src="https://cdn.jsdelivr.net/npm/turbolinks@5.2.0/dist/turbolinks.min.js" defer></script>
+</head>
+
+<body>
+    <h1><a href="/">{{.title}}</a></h1>
+     <nav>
+        <a href="/">Home</a> |
+        <a href="/about">About</a> |
+        <a href="/posts">Posts</a>
+    </nav>
+    <br />
+    <div class="content" id="content">
+        {{.content}}
+    </div>
+</body>
+
+</html>
