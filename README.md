@@ -8,6 +8,6 @@ When you're ready to start the app run the following command:
 
     $ go run main.go
 
-Browsing to: http://localhost:8080/posts will display the about page (shown below).
+Browsing to: http://localhost:8080/posts will display the about page:
 
-TODO: image here.
+![Posts](https://raw.githubusercontent.com/michaeltelford/swooper/assets/assets/posts.png)
